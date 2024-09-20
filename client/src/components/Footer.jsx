@@ -15,7 +15,8 @@ export const Footer = () => {
               <div className="footer_logo">
                 <img src="../imgs/EDC_logo.png" alt="" />
               </div>
-
+              <div>
+              </div>
               <div className="footer_img">
                 <img src="../imgs/Herosection.png" alt="" />
               </div>
