@@ -63,8 +63,9 @@
 .footer_container_left .footer_icons a{
   color: rgb(255, 255, 255);
 }
-.footer_container_second_left{
-  
+.footer_container_map iframe{
+  border-radius: 5px;
+  border-color: aqua;
 }
 
 .tabletBottom {
