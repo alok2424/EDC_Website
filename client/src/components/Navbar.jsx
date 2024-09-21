@@ -47,18 +47,50 @@ export const Navbar = () => {
             <NavLink style={navActive} to="/" onClick={showNavbar}>
               HOME
             </NavLink>
-            <NavLink style={navActive} to="/events" onClick={showNavbar}>
-              EVENTS
-            </NavLink>
-            <NavLink style={navActive} to="/team" onClick={showNavbar}>
-              TEAM
-            </NavLink>
-            <NavLink style={navActive} to="/blog" onClick={showNavbar}>
-              BLOGS
-            </NavLink>
-            <NavLink style={navActive} to="/aboutus" onClick={showNavbar}>
-              ABOUT
-            </NavLink>
+             {/*Events and Blog ek me hoga*/}  
+            <div className="showNavMenu">
+              <button className="navMenuButton" onClick={showNavMenu}>
+                <div id="navMenu">
+                  FEATURES
+                  <MdArrowDropDown />
+                </div>
+              </button>
+              <div id="navDropDown">
+                <div onClick={showNavMenu}>
+                  <span>
+                    <NavLink to="/events">Events</NavLink>
+                  </span>
+                </div>
+
+                <div onClick={showNavMenu}>
+                  <span>
+                    <NavLink to="/blog">Blogs</NavLink>
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/*Team and About Us ek me hoga */}
+             <div className="showNavMenu">
+                <button className="navMenuButton" onClick={showNavMenu}>
+                <div id="navMenu">
+                 DROPDOWN-2
+                 <MdArrowDropDown />
+                </div>
+                </button>
+                <div id="navDropDown">
+                <div onClick={showNavMenu}>
+                <span>
+                  <NavLink to="/aboutus">ABOUT</NavLink>
+                </span>
+              </div>
+
+              <div onClick={showNavMenu}>
+                <span>
+                  <NavLink to="/team">TEAM</NavLink>
+                </span>
+              </div>
+            </div>
+             </div>     
             <NavLink style={navActive} to="/contact" onClick={showNavbar}>
               CONTACT
             </NavLink>
@@ -117,6 +149,7 @@ export const Navbar = () => {
                 )}
               </div>
             </div>
+            
             <button id="communityButton">
               <NavLink
                 to="https://chat.whatsapp.com/Io5MxXmunWaCpUnoW3S0Gs"
