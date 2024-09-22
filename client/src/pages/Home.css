@@ -217,10 +217,11 @@
 .carousel {
   display: flex;
   overflow-x: scroll;
-  gap: 1rem;
+  gap: 5rem;
   padding: 1rem;
   height: 25rem;
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
   position: relative;
   scrollbar-width: none;
   scroll-behavior: smooth;
