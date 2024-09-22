@@ -101,7 +101,7 @@ export const Home = () => {
                         />
                       </h3>
                     </div>
-                    <p>
+                    <p className="left_hero_section_para">
                       The Entrepreneurship Development Cell (EDC) at JSSATE
                       Noida is a dynamic hub of support and empowerment for
                       budding entrepreneurs and ambitious professionals. We are

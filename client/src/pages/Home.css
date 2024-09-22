@@ -50,6 +50,9 @@
   padding-left: 4rem;
   margin-right: 4rem;
 }
+.left_hero_section_para{
+  width: 95.7%;
+}
 
 .left_hero_section div {
   display: flex;
@@ -460,12 +463,12 @@ span {
   #our_members hr {
     width: 25%;
   }
-  .main_hero_section .left_hero_section {
+  .main_hero_section  .left_hero_section{
     width: 50%;
     /* padding-top: 8rem; */
-    margin-right: 2rem;
+    margin-right: 2rem; 
   }
-
+ 
   .left_hero_section h3 {
     left: 18%;
   }
